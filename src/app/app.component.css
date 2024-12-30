@@ -1,0 +1,64 @@
+/* Style for the chatbox container */
+.chatbox {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: 20px auto;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Style for individual messages */
+  .messages {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+  }
+  
+  /* Style for user messages */
+  .user {
+    text-align: right;
+    background-color: lightblue;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 10px;
+  }
+  
+  /* Style for bot messages */
+  .bot {
+    text-align: left;
+    background-color: lightgreen;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 10px;
+  }
+  
+  /* Style for input section */
+  .input-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  input {
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
